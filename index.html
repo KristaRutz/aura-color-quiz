@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Personality Quiz</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Personality Quiz</h2>
+      </div>
+      <form id="quiz">
+        <div class="form-group">
+          <p>Which of these animals do you like?</p>
+          <input type="checkbox" name="animals" value="cat"> Cats <br>
+          <input type="checkbox" name="animals" value="dog"> Dogs <br>
+          <input type="checkbox" name="animals" value="goldfish"> Goldfish <br>
+          <input type="checkbox" name="animals" value="hamster"> Hamsters <br>
+          <input type="checkbox" name="animals" value="elephant"> Elephants <br>
+          <input type="checkbox" name="animals" value="snake"> Snakes <br>
+        </div>
+        <div class="form-group">
+          <p>Which of these countries would you visit?</p>
+          <input type="checkbox" name="countries" value="australia"> Australia <br>
+          <input type="checkbox" name="countries" value="canada"> Canada <br>
+          <input type="checkbox" name="countries" value="india"> India <br>
+          <input type="checkbox" name="countries" value="nigeria"> Nigeria <br>
+          <input type="checkbox" name="countries" value="italy"> Italy <br>
+          <input type="checkbox" name="countries" value="colombia"> Colombia <br>
+        </div>
+        <div class="form-group">
+          <p>Which of these words describe you?</p>
+          <input type="checkbox" name="character" value="thoughtful"> Thoughtful<br>
+          <input type="checkbox" name="character" value="indecisive"> Indecisive<br>
+          <input type="checkbox" name="character" value="ambitious"> Ambitious<br>
+          <input type="checkbox" name="character" value="introverted"> Introverted<br>
+          <input type="checkbox" name="character" value="moody"> Moody<br>
+          <input type="checkbox" name="character" value="with-the-flow"> "Go with the flow"<br>
+        </div>
+        <div class="form-group">
+          <p>How would you describe your view of relationships?</p>
+          <input type="checkbox" name="relationships" value="hopeless romantic"> I'm a hopeless romantic <br>
+          <input type="checkbox" name="relationships" value="having stuff in common"> The most important thing in a relationship is having lots in common <br>
+          <input type="checkbox" name="relationships" value="open relationships are cool"> Open relationships are okay<br>
+          <input type="checkbox" name="relationships" value="too busy for love"> I don't have time to give to someone else<br>
+          <input type="checkbox" name="relationships" value="want to be in love"> All I want in life is to be in love<br>
+          <input type="checkbox" name="relationships" value="get jealous">  I get jealous of my significant other's time and attention<br>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit Quiz</button>
+      </form>
+      <div id="outputMessages">
+        <span id="animalsOutput">
+          <p>The animals you like are:</p>
+        </span>
+        <hr>
+        <span id="countriesOutput">
+          <p>The countries you would visit include:</p>
+        </span>
+        <hr>
+        <span id="characterOutput">
+          <p>These words describe your personality:</p>
+        </span>
+        <hr>
+        <span id="relationshipsOutput">
+          <p>You agreed with these statements about relationships:</p>
+        </span>
+      </div>
+      <div id="aura">
+        <hr>
+        <p>This is the color of your aura!</p>
+      </div>
+    </div>
+  </body>
+</html>
